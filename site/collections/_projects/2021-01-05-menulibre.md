@@ -18,4 +18,8 @@ project_features_html: >-
   </ul>
 project_video_html: >-
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3_1UODHUTiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+project_featured_in: Featured in Xubuntu
+project_featured_in_description_html: >-
+  <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”
+project_featured_in_image: /images/projects/xubuntu-128.png
 ---
