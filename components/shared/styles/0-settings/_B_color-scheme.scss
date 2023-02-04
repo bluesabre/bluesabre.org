@@ -9,6 +9,8 @@ $blue-gray: #d5dce3;
 
 $background-color: #f2f6ff;
 $background-color-alt: $white;
+$background-color-darker-1: darken($background-color, 5%);
+$background-color-darker-2: darken($background-color, 10%);
 
 $text-color: $dark;
 

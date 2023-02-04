@@ -2,6 +2,8 @@
 .c-project-featured-in { $c: &;
 	padding: 96px 0;
 
+	background: $background-color-darker-1;
+
 	@media only screen and (max-width: $desktop) {
 		padding: 80px 0;
 	}

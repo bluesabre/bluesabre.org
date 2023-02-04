@@ -2,6 +2,8 @@
 .c-project-whats-new { $c: &;
 	padding: 96px 0;
 
+	background: $background-color-darker-2;
+
 	@media only screen and (max-width: $desktop) {
 		padding: 80px 0;
 	}
