@@ -22,4 +22,9 @@ project_featured_in: Featured in Xubuntu
 project_featured_in_description_html: >-
   <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”
 project_featured_in_image: /images/projects/xubuntu-128.png
+whats_new_title: What’s new with MenuLibre?
+whats_new_description_html: >-
+  <p>Get the latest updates at <a href="https://blog.bluesabre.org/tag/menulibre/">blog.bluesabre.org</a></p>
+whats_new_cta_button: Get the latest updates
+whats_new_cta_button_link: https://blog.bluesabre.org/tag/menulibre/
 ---
