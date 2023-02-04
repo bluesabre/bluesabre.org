@@ -27,4 +27,14 @@ whats_new_description_html: >-
   <p>Get the latest updates at <a href="https://blog.bluesabre.org/tag/menulibre/">blog.bluesabre.org</a></p>
 whats_new_cta_button: Get the latest updates
 whats_new_cta_button_link: https://blog.bluesabre.org/tag/menulibre/
+gallery:
+  /images/projects/menulibre/menulibre_2014_01.png: "menulibre_2014_01"
+  /images/projects/menulibre/menulibre_2014_02.png: "menulibre_2014_02"
+  /images/projects/menulibre/menulibre_2014_03.png: "menulibre_2014_03"
+  /images/projects/menulibre/menulibre_2014_04.png: "menulibre_2014_04"
+  /images/projects/menulibre/menulibre_2014_05.png: "menulibre_2014_05"
+  /images/projects/menulibre/menulibre_2014_06.png: "menulibre_2014_06"
+  /images/projects/menulibre/menulibre_2014_07.png: "menulibre_2014_07"
+  /images/projects/menulibre/menulibre_2014_08.png: "menulibre_2014_08"
+  /images/projects/menulibre/menulibre_2014_09.png: "menulibre_2014_09"
 ---
