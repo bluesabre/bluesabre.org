@@ -8,15 +8,21 @@
 
           <div class="{{c}}__left">
             <h2 class="{{c}}__title">{{ include.title }}</h2>
-            <div class="{{c}}__description">{{ include.description_html }}</div>
+            <div class="{{c}}__description">
+              <p>{{ include.description }}</p>
+            </div>
             <div class="{{c}}__features">
               <h3>Features</h3>
-              {{ include.features_html }}
+              <ul>
+                {% for feature in include.features %}
+                  <li>{{ feature }}</li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
 
           <div class="{{c}}__right">
-            <div class="{{c}}__video">{{ include.video_html }}</div>
+            <div class="{{c}}__video">{{ include.featured_video }}</div>
           </div>
 
         </div>

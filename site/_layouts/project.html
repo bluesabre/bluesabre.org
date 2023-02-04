@@ -9,23 +9,23 @@ layout: default_blocks_with_newsletter
   {% bookshop page-image image=page_image %}
 
   {% bookshop project-summary
-    title=page.project_title 
-    description_html=page.project_description_html 
-    features_html=page.project_features_html
-    video_html=page.project_video_html
+    title=page.summary_title 
+    description=page.summary_description 
+    features=page.features
+    featured_video=page.featured_video
   %}
 
   {% bookshop project-featured-in
-    title=page.project_featured_in
-    description_html=page.project_featured_in_description_html
-    image=page.project_featured_in_image
+    featured_in=page.featured_in
+    description_html=page.featured_in_description_html
+    image=page.featured_in_image
+    image_alt=page.featured_in_image_alt
   %}
 
   {% bookshop project-whats-new
     title=page.whats_new_title
-    description_html=page.whats_new_description_html
-    cta_button=page.whats_new_cta_button
-    cta_button_link=page.whats_new_cta_button_link
+    url=page.whats_new_url
+    domain=page.whats_new_domain
   %}
 
   {% bookshop project-gallery

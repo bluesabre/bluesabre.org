@@ -4,29 +4,26 @@ title: MenuLibre
 subtitle: The advanced menu editor for the Free and Open Source desktop.
 description: The advanced menu editor for the Free and Open Source desktop
 extended_description: Supports Budgie, GNOME, KDE, LXDE, MATE, Pantheon, Unity, and Xfce.
-image: '/images/projects/menulibre/menulibre-featured.png'
+image: /images/projects/menulibre/menulibre-featured.png
 cta_button: Get it on GitHub
 cta_button_link: https://github.com/bluesabre/menulibre
-project_title: MenuLibre
-project_description_html: >-
-  <p>An advanced menu editor that provides modern features in a clean, easy-to-use interface.</p>
-project_features_html: >-
-  <ul>
-    <li>Create new launchers or modify existing ones with complete control and access to hidden settings</li>
-    <li>Add and adjust desktop actions: shortcuts to advanced application features</li>
-    <li>Easily rearrange the menu to suit your tastes</li>
-  </ul>
-project_video_html: >-
+summary_title: MenuLibre
+summary_description: >-
+  An advanced menu editor that provides modern features in a clean, easy-to-use interface.
+features:
+  - Create new launchers or modify existing ones with complete control and access to hidden settings
+  - 'Add and adjust desktop actions: shortcuts to advanced application features'
+  - Easily rearrange the menu to suit your tastes
+featured_video: >-
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3_1UODHUTiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-project_featured_in: Featured in Xubuntu
-project_featured_in_description_html: >-
+featured_in: Xubuntu
+featured_in_description_html: >-
   <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”
-project_featured_in_image: /images/projects/xubuntu-128.png
+featured_in_image: /images/projects/xubuntu-128.png
+featured_in_image_alt: Xubuntu logo
 whats_new_title: What’s new with MenuLibre?
-whats_new_description_html: >-
-  <p>Get the latest updates at <a href="https://blog.bluesabre.org/tag/menulibre/">blog.bluesabre.org</a></p>
-whats_new_cta_button: Get the latest updates
-whats_new_cta_button_link: https://blog.bluesabre.org/tag/menulibre/
+whats_new_url: https://blog.bluesabre.org/tag/menulibre/
+whats_new_domain: blog.bluesabre.org
 gallery:
   /images/projects/menulibre/menulibre_2014_01.png: "menulibre_2014_01"
   /images/projects/menulibre/menulibre_2014_02.png: "menulibre_2014_02"
