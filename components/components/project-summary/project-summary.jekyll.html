@@ -1,0 +1,27 @@
+<!-- begin project-summary -->
+{% assign c = "c-project-summary" %}
+<section class="{{c}} animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="{{c}}__inner">
+
+          <div class="{{c}}__left">
+            <h2 class="{{c}}__title">{{ include.title }}</h2>
+            <div class="{{c}}__description">{{ include.description_html }}</div>
+            <div class="{{c}}__features">
+              <h3>Features</h3>
+              {{ include.features_html }}
+            </div>
+          </div>
+
+          <div class="{{c}}__right">
+            <div class="{{c}}__video">{{ include.video_html }}</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end project-summary -->
