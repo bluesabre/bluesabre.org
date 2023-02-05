@@ -6,15 +6,13 @@
       <div class="col col-12">
         <div class="{{c}}__inner">
 
-          <div class="{{c}}__left">
-            <div class="{{c}}__image">
-              <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}">
-            </div>
-          </div>
-
-          <div class="{{c}}__right">
+          <div class="{{c}}__content">
             <h3 class="{{c}}__title">Featured in {{ include.featured_in }}</h3>
             <div class="{{c}}__description">{{ include.description_html }}</div>
+          </div>
+
+          <div class="{{c}}__image">
+            <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}">
           </div>
 
         </div>

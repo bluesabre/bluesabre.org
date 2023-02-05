@@ -1,19 +1,11 @@
 /* Project What's New */
 .c-project-whats-new { $c: &;
-	padding: 96px 0;
+	padding: 72px 0;
 
 	background: $background-color-darker-2;
 
 	@media only screen and (max-width: $desktop) {
-		padding: 80px 0;
-	}
-
-	@media only screen and (max-width: $tablet) {
-		 padding: 40px 0 80px;
-	}
-
-	@media only screen and (max-width: $mobile) {
-		padding: 30px 0 60px;
+		padding: 60px 0;
 	}
 
 	&__inner {
@@ -98,7 +90,7 @@
 
 	&__title {
 		margin-bottom: 20px;
-		font-size: 58px;
+		font-size: 38px;
 		color: $heading-font-color;
 
 		@media only screen and (max-width: 1130px) {
@@ -117,7 +109,7 @@
 
 	&__description {
 		p {
-			margin-bottom: 0;
+			margin-bottom: 20px;
 			font-size: 18px;
 			line-height: 1.6;
 			color: $text-color;

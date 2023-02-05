@@ -1,19 +1,11 @@
 /* Project Featured In */
 .c-project-featured-in { $c: &;
-	padding: 96px 0;
+	padding: 48px 0;
 
 	background: $background-color-darker-1;
 
 	@media only screen and (max-width: $desktop) {
-		padding: 80px 0;
-	}
-
-	@media only screen and (max-width: $tablet) {
-		 padding: 40px 0 80px;
-	}
-
-	@media only screen and (max-width: $mobile) {
-		padding: 30px 0 60px;
+		padding: 60px 0;
 	}
 
 	&__inner {
@@ -25,81 +17,9 @@
 		}
 	}
 
-	&__left,
-	&__right {
-		width: 50%;
-
-		@media only screen and (max-width: $tablet) {
-			width: 100%;
-		}
-	}
-
-	&__left {
-		max-width: 510px;
-		padding-right: 20px;
-		margin-right: auto;
-
-		@media only screen and (max-width: $tablet) {
-			max-width: 100%;
-			padding-right: 0;
-		}
-	}
-
-	&__right {
-		position: relative;
-		
-		@media only screen and (max-width: 1130px) {
-			#{$c}__image {
-				width: 400px;
-				height: 420px;
-			}
-		}
-
-		@media only screen and (max-width: $desktop) {
-			#{$c}__image {
-				width: 340px;
-				height: 360px;
-			}
-		}
-
-		@media only screen and (max-width: $tablet) {
-			order: -1;
-
-			#{$c}__image {
-				width: 100%;
-				height: 380px;
-				margin-bottom: 40px;
-
-				&::before {
-					border-radius: 30px;
-				}
-
-				img {
-					border-radius: 30px;
-				}
-			}
-		}
-
-		@media only screen and (max-width: $mobile) {
-			#{$c}__image {
-				height: 280px;
-				margin-bottom: 32px;
-
-				&::before {
-					border-radius: 16px;
-				}
-
-				img {
-					border-radius: 16px;
-					box-shadow: none;
-				}
-			}
-		}
-	}
-
 	&__title {
 		margin-bottom: 20px;
-		font-size: 58px;
+		font-size: 38px;
 		color: $heading-font-color;
 
 		@media only screen and (max-width: 1130px) {
@@ -166,6 +86,18 @@
 			box-shadow: 0px 100px 80px rgba($primary-color, 0.07), 0px 41.7776px 33.4221px rgba($primary-color, 0.0503198), 0px 22.3363px 17.869px rgba($primary-color, 0.0417275), 0px 12.5216px 10.0172px rgba($primary-color, 0.035), 0px 6.6501px 5.32008px rgba($primary-color, 0.0282725), 0px 2.76726px 2.21381px rgba($primary-color, 0.0196802);
 			transition: inherit;
 			background: $blue-gray;
+		}
+
+		@media only screen and (max-width: $tablet) {
+			order: -1;
+			margin-bottom: 48px;
+			margin-left: 0;
+		}
+	}
+
+	&__content {
+		@media only screen and (max-width: $tablet) {
+			align-self: flex-start;
 		}
 	}
 }

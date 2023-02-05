@@ -33,7 +33,17 @@
 
 	&__description {
 		margin: 30px auto 0;
-		max-width: 560px;
+		max-width: 620px;
+		line-height: 1.6;
+
+		@media only screen and (max-width: $mobile) {
+			margin: 24px auto 0;
+		}
+	}
+
+	&__extended-description {
+		margin: 20px auto;
+		max-width: 620px;
 		line-height: 1.6;
 
 		@media only screen and (max-width: $mobile) {
