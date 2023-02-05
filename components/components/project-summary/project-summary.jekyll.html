@@ -21,9 +21,11 @@
             </div>
           </div>
 
+          {% if include.featured_video %}
           <div class="{{c}}__right">
             <div class="{{c}}__video">{{ include.featured_video }}</div>
           </div>
+          {% endif %}
 
         </div>
       </div>

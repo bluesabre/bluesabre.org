@@ -18,7 +18,7 @@ featured_video: >-
   <iframe width="560" height="315" src="https://www.youtube.com/embed/3_1UODHUTiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 featured_in: Xubuntu
 featured_in_description_html: >-
-  <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”
+  <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”</p>
 featured_in_image: /images/projects/xubuntu-128.png
 featured_in_image_alt: Xubuntu logo
 whats_new_title: What’s new with MenuLibre?
