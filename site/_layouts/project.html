@@ -15,21 +15,27 @@ layout: default
     featured_video=page.featured_video
   %}
 
+  {% if page.featured_in %}
   {% bookshop project-featured-in
     featured_in=page.featured_in
     description_html=page.featured_in_description_html
     image=page.featured_in_image
     image_alt=page.featured_in_image_alt
   %}
+  {% endif %}
 
+  {% if page.whats_new_title %}
   {% bookshop project-whats-new
     title=page.whats_new_title
     url=page.whats_new_url
     domain=page.whats_new_domain
   %}
+  {% endif %}
 
+  {% if page.gallery %}
   {% bookshop project-gallery
     gallery=page.gallery
   %}
+  {% endif %}
 
 </div>
