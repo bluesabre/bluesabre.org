@@ -1,7 +1,9 @@
 .page {
   max-width: 780px;
   margin: 0 auto 60px;
+}
 
+.page, .project {
   a {
     font-weight: 500;
     border-bottom: 1px solid $border-color;

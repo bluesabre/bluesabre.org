@@ -4,39 +4,43 @@ layout: default
 
 <div class="container">
 
-  {% bookshop page-heading title=page.title description=page.subtitle extended_description=page.extended_description cta_button=page.cta_button cta_button_link=page.cta_button_link %}
-  {% assign page_image = site.baseurl | append: page.image %}
-  {% bookshop page-image image=page_image %}
+  <article class="project">
 
-  {% bookshop project-summary
-    title=page.summary_title
-    description=page.summary_description
-    description_html=page.summary_description_html
-    features=page.features
-    featured_video=page.featured_video
-  %}
+    {% bookshop page-heading title=page.title description=page.subtitle extended_description=page.extended_description cta_button=page.cta_button cta_button_link=page.cta_button_link %}
+    {% assign page_image = site.baseurl | append: page.image %}
+    {% bookshop page-image image=page_image %}
 
-  {% if page.featured_in %}
-  {% bookshop project-featured-in
-    featured_in=page.featured_in
-    description_html=page.featured_in_description_html
-    image=page.featured_in_image
-    image_alt=page.featured_in_image_alt
-  %}
-  {% endif %}
+    {% bookshop project-summary
+      title=page.summary_title
+      description=page.summary_description
+      description_html=page.summary_description_html
+      features=page.features
+      featured_video=page.featured_video
+    %}
 
-  {% if page.whats_new_title %}
-  {% bookshop project-whats-new
-    title=page.whats_new_title
-    url=page.whats_new_url
-    domain=page.whats_new_domain
-  %}
-  {% endif %}
+    {% if page.featured_in %}
+    {% bookshop project-featured-in
+      featured_in=page.featured_in
+      description_html=page.featured_in_description_html
+      image=page.featured_in_image
+      image_alt=page.featured_in_image_alt
+    %}
+    {% endif %}
 
-  {% if page.gallery %}
-  {% bookshop project-gallery
-    gallery=page.gallery
-  %}
-  {% endif %}
+    {% if page.whats_new_title %}
+    {% bookshop project-whats-new
+      title=page.whats_new_title
+      url=page.whats_new_url
+      domain=page.whats_new_domain
+    %}
+    {% endif %}
+
+    {% if page.gallery %}
+    {% bookshop project-gallery
+      gallery=page.gallery
+    %}
+    {% endif %}
+
+  </article>
 
 </div>
