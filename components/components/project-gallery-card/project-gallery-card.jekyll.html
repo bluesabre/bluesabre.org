@@ -1,7 +1,12 @@
 {% assign c = "c-project-gallery-card" %}
 <article class="{{c}} col col-4 col-d-6 col-t-12">
   <div class="{{c}}__content">
-    <a href="{{ include.item[0] }}" class="{{c}}__image">
+    <a
+      href="{{ include.item[0] }}"
+      class="{{c}}__image"
+      data-fslightbox="gallery"
+      data-caption="<p>{{ include.item[1] }}</p>"
+    >
       <img loading="lazy" src="{{ include.item[0] }}" alt="{{ include.item[1] }}">
     </a>
   </div>

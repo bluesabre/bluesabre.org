@@ -180,6 +180,15 @@
 	max-width: 780px;
 	margin: 0 auto 60px;
 
+	.button {
+		border: none;
+		text-decoration: none;
+	}
+}
+
+.post,
+.page,
+.project {
 	a {
 		font-weight: 500;
 		border-bottom: 1px solid $border-color;
@@ -190,18 +199,10 @@
 		}
 	}
 
-	img, .js-reframe {
+	img,
+	.js-reframe {
 		border-radius: 8px;
 		overflow: hidden;
-
-		&.lightense-open {
-			border-radius: 0;
-		}
-	}
-
-	.button {
-		border: none;
-		text-decoration: none;
 	}
 }
 

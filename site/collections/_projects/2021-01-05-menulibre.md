@@ -14,8 +14,7 @@ features:
   - Create new launchers or modify existing ones with complete control and access to hidden settings
   - 'Add and adjust desktop actions: shortcuts to advanced application features'
   - Easily rearrange the menu to suit your tastes
-featured_video: >-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/3_1UODHUTiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+featured_video: 3_1UODHUTiY
 featured_in: Xubuntu
 featured_in_description_html: >-
   <p>Since <a href="https://xubuntu.org/news/14-04-release/">Xubuntu 14.04</a> “Trusty Tahr”</p>

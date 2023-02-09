@@ -27,7 +27,27 @@
 
           {% if include.featured_video %}
           <div class="{{c}}__right">
-            <div class="{{c}}__video">{{ include.featured_video }}</div>
+            <div class="{{c}}__image">
+              <a
+                href="https://www.youtube.com/watch?v={{ include.featured_video }}"
+                class="{{c}}__image"
+                data-fslightbox="gallery"
+                data-caption="<p>{{ include.item[1] }}</p>"
+              >
+                <img
+                  loading="lazy"
+                  src="http://img.youtube.com/vi/{{ include.featured_video }}/hqdefault.jpg"
+                  alt="YouTube video"
+                  class="preview"
+                  data-fslightbox="gallery"
+                />
+                <img
+                  loading="lazy"
+                  src="/images/play_button_overlay.png"
+                  alt="Play button"
+                  class="play-button"
+                />
+              </a>
           </div>
           {% endif %}
 

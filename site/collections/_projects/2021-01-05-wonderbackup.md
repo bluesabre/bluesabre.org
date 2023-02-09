@@ -13,6 +13,5 @@ features:
   - Supported Windows XP+, macOS 10.5+, Linux
   - Incremental backups
   - Backup any disk to any location
-featured_video: >-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/zszz_LRAOPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+featured_video: zszz_LRAOPQ
 ---
