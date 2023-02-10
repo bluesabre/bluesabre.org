@@ -1,11 +1,11 @@
-/* Hero */
-.c-hero { $c: &;
+/* Hero Right */
+.c-hero-right { $c: &;
 	padding: 96px 0;
 
-	a.normal-link {
+	a {
 		font-weight: 500;
 		border-bottom: 1px solid $border-color;
-	
+
 		&:hover {
 			color: $link-color;
 			border-bottom-color: $link-color-hover;
@@ -51,11 +51,7 @@
 			max-width: 100%;
 			padding-right: 0;
 		}
-	}
 
-	&__right {
-		position: relative;
-		
 		@media only screen and (max-width: 1130px) {
 			#{$c}__image {
 				width: 400px;
@@ -105,6 +101,10 @@
 		}
 	}
 
+	&__right {
+		position: relative;
+	}
+
 	&__title {
 		margin-bottom: 20px;
 		font-size: 58px;
@@ -126,7 +126,6 @@
 
 	&__description {
 		p {
-			margin-bottom: 0;
 			font-size: 18px;
 			line-height: 1.6;
 			color: $text-color;
