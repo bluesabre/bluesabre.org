@@ -5,6 +5,16 @@
 		position: relative;
 	}
 
+	a {
+		font-weight: 500;
+		border-bottom: 1px solid $border-color;
+
+		&:hover {
+			color: $link-color;
+			border-bottom-color: $link-color-hover;
+		}
+	}
+
 	&__form-box {
 		max-width: 580px;
 		margin: 0 auto;
