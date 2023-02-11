@@ -1,36 +1,151 @@
 ---
-title: Projects
-content_blocks:
-  - _bookshop_name: page-heading
-    title: My Projects
-    description: Free and open source software.
-  - _bookshop_name: projects-list
-    show_projects: true
-  - _bookshop_name: left-right-content
-    left_content: >-
-      <h2>OpenPGP Keys</h2>
-      <ul>
-        <li><a
-            href="https://keyserver.ubuntu.com/pks/lookup?search=0x21D00B5001E804E5DE6E4BF876E6FEEC95FC5E22&amp;fingerprint=on&amp;op=index">95FC5E22</a>
-        </li>
-        <li><a
-            href="https://keyserver.ubuntu.com/pks/lookup?search=0xB425527462D48C7846DC3C9188DF5398DEAB08C7&amp;fingerprint=on&amp;op=index">88DF5398DEAB08C7</a>
-        </li>
-      </ul>
-    right_content: >-
-      <h2>Code Hosting</h2>
-      <ul>
-        <li>
-          GitHub hosts my <a href="https://github.com/bluesabre">personal</a>
-          and <a href="https://github.com/Xubuntu">Xubuntu-related</a> projects
-        </li>
-        <li>
-          <a href="https://gitlab.xfce.org/bluesabre">GitLab</a> hosts all
-          Xfce-related projects
-        </li>
-        <li>
-          Previously, <a href="https://launchpad.net/~bluesabre">Launchpad</a>
-          hosted much of my work
-        </li>
-      </ul>
+title: My Projects
+subtitle: Free and open source software.
+menulibre_title: 'MenuLibre'
+menulibre_image: '/images/projects/menulibre/menulibre-featured.png'
+menulibre_description: >-
+  <p>
+    The advanced menu editor for modern and classic desktop environments. MenuLibre unlocks the full potential of your
+    applications menu and dock by allowing you to create and rearrange your menu with support for actions.
+  </p>
+menulibre_cta_button: 'Learn More'
+menulibre_cta_button_link: '/projects/menulibre'
+catfish_title: 'Catfish'
+catfish_image: '/images/projects/catfish/catfish-featured.png'
+catfish_description: >-
+  <p>
+    The versatile file searching utility, made for Xfce. Quickly scan your file system for keywords or dig deep into file
+    contents to find that novel you started working on years ago.
+  </p>
+catfish_cta_button: 'Learn More'
+catfish_cta_button_link: '/projects/catfish'
+darkbar_title: 'Darkbar'
+darkbar_image: '/images/projects/darkbar/darkbar-featured.png'
+darkbar_description: >-
+  <p>
+    Improve support for Dark mode in elementary OS. Darkbar replaces per-application window decorations with your preference
+    of light, dark, or automatic theme variants. Supports Electron and traditional style applications.
+  </p>
+darkbar_cta_button: 'Learn More'
+darkbar_cta_button_link: '/projects/darkbar'
+lightdm_gtk_greeter_title: 'LightDM GTK Greeter'
+lightdm_gtk_greeter_image: '/images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-featured.png'
+lightdm_gtk_greeter_description: >-
+  <p>
+    The highly-configurable login screen for GTK environments. Designed with accessibility and broad feature support in
+    mind.
+  </p>
+lightdm_gtk_greeter_cta_button: 'Learn More'
+lightdm_gtk_greeter_cta_button_link: '/projects/lightdm-gtk-greeter'
+mugshot_title: 'Mugshot'
+mugshot_image: '/images/projects/mugshot/mugshot-featured.png'
+mugshot_description: >-
+  <p>
+    A lightweight user configuration utility for Linux designed for simplicity and ease-of-use. The missing profile settings
+    for Xfce.
+  </p>
+mugshot_cta_button: 'Learn More'
+mugshot_cta_button_link: '/projects/mugshot'
+sgt_launcher_title: 'SGT Puzzles Collection'
+sgt_launcher_image: '/images/projects/sgt-launcher/sgt-launcher-featured.png'
+sgt_launcher_description: >-
+  <p>
+    A single, simple launcher for all the games in Simon Tatham’s Portal Puzzle Collection, designed for GTK desktop
+    environments.
+  </p>
+sgt_launcher_cta_button: 'Learn More'
+sgt_launcher_cta_button_link: '/projects/sgt-launcher'
+pgp_keys_content: >-
+  <h2>OpenPGP Keys</h2>
+  <ul>
+    <li><a
+        href="https://keyserver.ubuntu.com/pks/lookup?search=0x21D00B5001E804E5DE6E4BF876E6FEEC95FC5E22&amp;fingerprint=on&amp;op=index">95FC5E22</a>
+    </li>
+    <li><a
+        href="https://keyserver.ubuntu.com/pks/lookup?search=0xB425527462D48C7846DC3C9188DF5398DEAB08C7&amp;fingerprint=on&amp;op=index">88DF5398DEAB08C7</a>
+    </li>
+  </ul>
+code_hosting_content: >-
+  <h2>Code Hosting</h2>
+  <ul>
+    <li>
+      GitHub hosts my <a href="https://github.com/bluesabre">personal</a>
+      and <a href="https://github.com/Xubuntu">Xubuntu-related</a> projects
+    </li>
+    <li>
+      <a href="https://gitlab.xfce.org/bluesabre">GitLab</a> hosts all
+      Xfce-related projects
+    </li>
+    <li>
+      Previously, <a href="https://launchpad.net/~bluesabre">Launchpad</a>
+      hosted much of my work
+    </li>
+  </ul>
 ---
+
+<div class="container">
+
+  <article class="projects">
+
+    {% bookshop page-heading
+      title=page.title
+      description=page.subtitle
+      extended_description=page.extended_description
+    %}
+
+    {% bookshop hero
+      title=page.menulibre_title
+      description_html=page.menulibre_description
+      image=page.menulibre_image
+      cta_button=page.menulibre_cta_button
+      cta_button_link=page.menulibre_cta_button_link
+    %}
+
+    {% bookshop hero-right
+      title=page.catfish_title
+      description_html=page.catfish_description
+      image=page.catfish_image
+      cta_button=page.catfish_cta_button
+      cta_button_link=page.catfish_cta_button_link
+    %}
+
+    {% bookshop hero
+      title=page.darkbar_title
+      description_html=page.darkbar_description
+      image=page.darkbar_image
+      cta_button=page.darkbar_cta_button
+      cta_button_link=page.darkbar_cta_button_link
+    %}
+
+    {% bookshop hero-right
+      title=page.lightdm_gtk_greeter_title
+      description_html=page.lightdm_gtk_greeter_description
+      image=page.lightdm_gtk_greeter_image
+      cta_button=page.lightdm_gtk_greeter_cta_button
+      cta_button_link=page.lightdm_gtk_greeter_cta_button_link
+    %}
+
+    {% bookshop hero
+      title=page.mugshot_title
+      description_html=page.mugshot_description
+      image=page.mugshot_image
+      cta_button=page.mugshot_cta_button
+      cta_button_link=page.mugshot_cta_button_link
+    %}
+
+    {% bookshop hero-right
+      title=page.sgt_launcher_title
+      description_html=page.sgt_launcher_description
+      image=page.sgt_launcher_image
+      cta_button=page.sgt_launcher_cta_button
+      cta_button_link=page.sgt_launcher_cta_button_link
+    %}
+
+    {% bookshop left-right-content
+      left_content=page.pgp_keys_content
+      right_content=page.code_hosting_content
+    %}
+  
+  </article>
+
+</div>
