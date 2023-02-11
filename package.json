@@ -1,6 +1,6 @@
 {
-  "name": "vonge-jekyll-bookshop-template",
-  "description": "Vonge template for CloudCannon",
+  "name": "bluesabre-org-jekyll-bookshop-template",
+  "description": "bluesabre.org template for CloudCannon",
   "scripts": {
     "bookshop-dev": "bookshop-browser -p 6086 -b ./components",
     "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
