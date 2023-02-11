@@ -15,9 +15,11 @@
             {% if include.cta_button_link %}
             <div class="{{c}}__btn">
               <a href="{{ include.cta_button_link }}" class="cta-button c-button c-button--primary c-button--small">{{ include.cta_button }}</a>
+              {% if include.works_button_link %}
               <a class="works-button c-button c-button--secondary c-button--small" href="{{ include.works_button_link }}">
                 <span class="circle-bg"><ion-icon name="arrow-down" class="button-arrow"></ion-icon></span> {{ include.works_button }}
               </a>
+              {% endif %}
             </div>
             {% endif %}
           </div>

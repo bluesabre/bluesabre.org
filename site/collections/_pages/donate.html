@@ -1,0 +1,96 @@
+---
+layout: default
+title: Donate
+subtitle: 'Free software isn’t free. Support your favorite projects and developers.'
+me_title: 'Support me.'
+me_image: '/images/sean-davis-headshot.jpg'
+me_description: >-
+  <p>
+    I use my sponsorship funds to cover server costs, fund open source projects, purchase additional hardware for
+    development and fuel my coffee habit.<br><br>
+  </p>
+  <p>
+    Send me a one-time donation or become a monthly supporter on <a
+      class="normal-link" href="https://github.com/sponsors/bluesabre">GitHub Sponsors</a>.
+    Become a monthly supporter on <a class="normal-link" href="https://liberapay.com/bluesabre/">Liberapay</a> or <a
+      class="normal-link" href="https://www.patreon.com/bluesabre">Patreon</a>. Or <a class="normal-link"
+      href="https://buy.stripe.com/6oEg1U1x8bQt1z2dQQ">send me a tip</a> of any size.
+  </p>
+me_cta_button: 'Become a Sponsor'
+me_cta_button_link: 'https://github.com/sponsors/bluesabre'
+xfce_title: 'Support Xfce.'
+xfce_image: '/images/xfce_logo_768_semitransparent.png'
+xfce_description: >-
+  <p>
+    Xfce is the lightweight desktop environment that drives the Xubuntu experience. Whether you want to give financially or
+    contribute to documentation, translations, development, promotion, or bug reporting and testing, all of your options can
+    be found in one place.
+  </p>
+xfce_cta_button: 'Get Involved'
+xfce_cta_button_link: 'https://xfce.org/getinvolved'
+xubuntu_title: 'Support Xubuntu.'
+xubuntu_image: '/images/xubuntu_logo_768_semitransparent.png'
+xubuntu_description: >-
+  <p>
+    Xubuntu is an elegant and easy-to-use operating system, powered by Xfce and Ubuntu. It’s always in need of contributors,
+    and anybody can participate in the Xubuntu community. Join our Artwork, Development, Documentation, Marketing, and
+    Quality Assurance teams today.
+  </p>
+xubuntu_cta_button: 'Contribute'
+xubuntu_cta_button_link: 'https://xubuntu.org/contribute/'
+elementary_title: 'Support elementary OS.'
+elementary_image: '/images/elementary_logo_768_semitransparent.png'
+elementary_description: >-
+  <p>
+    elementary OS is the thoughtful, capable, and ethical replacement for Windows and macOS. You can find resources on
+    contributing financially or through translations, support, web and desktop development, and design on their website.
+  </p>
+elementary_cta_button: 'Get Involved'
+elementary_cta_button_link: 'https://elementary.io/get-involved'
+---
+
+<div class="container">
+
+  <article class="donate">
+
+    {% bookshop page-heading
+      title=page.title
+      description=page.subtitle
+      extended_description=page.extended_description
+    %}
+
+    {% bookshop hero
+      title=page.me_title
+      description_html=page.me_description
+      image=page.me_image
+      cta_button=page.me_cta_button
+      cta_button_link=page.me_cta_button_link
+    %}
+
+    {% bookshop hero-right
+      title=page.xfce_title
+      description_html=page.xfce_description
+      image=page.xfce_image
+      cta_button=page.xfce_cta_button
+      cta_button_link=page.xfce_cta_button_link
+    %}
+
+    {% bookshop hero
+      title=page.xubuntu_title
+      description_html=page.xubuntu_description
+      image=page.xubuntu_image
+      cta_button=page.xubuntu_cta_button
+      cta_button_link=page.xubuntu_cta_button_link
+    %}
+
+    {% bookshop hero-right
+      title=page.elementary_title
+      description_html=page.elementary_description
+      image=page.elementary_image
+      cta_button=page.elementary_cta_button
+      cta_button_link=page.elementary_cta_button_link
+    %}
+
+  </article>
+
+</div>
