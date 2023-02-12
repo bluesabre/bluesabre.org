@@ -2,9 +2,11 @@
 date: 2021-01-05 05:20:35 +0300
 title: MenuLibre
 subtitle: The advanced menu editor for the Free and Open Source desktop.
-description: The advanced menu editor for the Free and Open Source desktop
+description: >-
+  The advanced menu editor for the free and open-source desktop. Featured in Xubuntu.
 extended_description: Supports Budgie, GNOME, KDE, LXDE, MATE, Pantheon, Unity, and Xfce.
 image: /images/projects/menulibre/menulibre-featured.png
+social_media_share_image: /images/projects/menulibre/menulibre-shared.png
 cta_button: Get it on GitHub
 cta_button_link: https://github.com/bluesabre/menulibre
 summary_title: MenuLibre

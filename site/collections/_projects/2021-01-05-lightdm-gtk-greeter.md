@@ -2,8 +2,10 @@
 date: 2021-01-05 05:20:35 +0300
 title: LightDM GTK Greeter
 subtitle: The highly configurable login screen for the Free and Open Source desktop.
-description: The highly configurable login screen for the Free and Open Source desktop
+description: >-
+  The highly configurable login screen for the Free and Open Source desktop.
 image: /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-featured.png
+social_media_share_image: /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-shared.png
 cta_button: Get it on GitHub
 cta_button_link: https://github.com/xubuntu/lightdm-gtk-greeter
 summary_title: LightDM GTK Greeter

@@ -2,8 +2,10 @@
 date: 2021-01-05 05:20:35 +0300
 title: SGT Puzzles Collection
 subtitle: A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
-description: A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
+description: >-
+  A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
 image: /images/projects/sgt-launcher/sgt-launcher-featured.png
+social_media_share_image: /images/projects/sgt-launcher/sgt-launcher-shared.png
 cta_button: Get it on GitHub
 cta_button_link: https://github.com/bluesabre/sgt-launcher
 summary_title: SGT Puzzles Collection
