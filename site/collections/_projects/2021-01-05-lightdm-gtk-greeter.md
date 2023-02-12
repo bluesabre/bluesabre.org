@@ -25,12 +25,10 @@ whats_new_title: What’s new with LightDM GTK Greeter?
 whats_new_url: https://blog.bluesabre.org/tag/lightdm-gtk-greeter/
 whats_new_domain: blog.bluesabre.org
 gallery:
-  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-arc.png: "lightdm-gtk-greeter-arc"
-  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-arc-dark.png: "lightdm-gtk-greeter-arc-dark"
-  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-greybird.png: "lightdm-gtk-greeter-greybird"
-  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-numix.png: "lightdm-gtk-greeter-numix"
-  /images/projects/lightdm-gtk-greeter/xubuntu-15.10_lightdm-gtk-greeter-settings.png: "xubuntu-15.10_lightdm-gtk-greeter-settings"
-  /images/projects/lightdm-gtk-greeter/Numix_lightdm-gtk-greeter1.png: "Numix_lightdm-gtk-greeter1"
-  /images/projects/lightdm-gtk-greeter/Ambiance_lightdm-gtk-greeter1.png: "Ambiance_lightdm-gtk-greeter1"
-  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-adwaita.png: "lightdm-gtk-greeter-adwaita"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-settings.png: "LightDM GTK Greeter settings dialog"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-adwaita-theme.png: "LightDM GTK Greeter with the Adwaita theme"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-arc-theme.png: "LightDM GTK Greeter with the Arc theme"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-arc-dark-theme.png: "LightDM GTK Greeter with the Arc Dark theme"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-greybird-theme.png: "LightDM GTK Greeter with the Greybird theme"
+  /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-numix-theme.png: "LightDM GTK Greeter with the Numix theme"
 ---

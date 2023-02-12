@@ -26,13 +26,13 @@ whats_new_title: What’s new with MenuLibre?
 whats_new_url: https://blog.bluesabre.org/tag/menulibre/
 whats_new_domain: blog.bluesabre.org
 gallery:
-  /images/projects/menulibre/menulibre_2014_01.png: "menulibre_2014_01"
-  /images/projects/menulibre/menulibre_2014_02.png: "menulibre_2014_02"
-  /images/projects/menulibre/menulibre_2014_03.png: "menulibre_2014_03"
-  /images/projects/menulibre/menulibre_2014_04.png: "menulibre_2014_04"
-  /images/projects/menulibre/menulibre_2014_05.png: "menulibre_2014_05"
-  /images/projects/menulibre/menulibre_2014_06.png: "menulibre_2014_06"
-  /images/projects/menulibre/menulibre_2014_07.png: "menulibre_2014_07"
-  /images/projects/menulibre/menulibre_2014_08.png: "menulibre_2014_08"
-  /images/projects/menulibre/menulibre_2014_09.png: "menulibre_2014_09"
+  /images/projects/menulibre/menulibre-application-window.png: "MenuLibre application window"
+  /images/projects/menulibre/menulibre-application-sidebar.png: "MenuLibre application sidebar, expanded to show nested menu items"
+  /images/projects/menulibre/menulibre-icon-dialog.png: "MenuLibre icon dialog"
+  /images/projects/menulibre/menulibre-add-menu.png: "MenuLibre add menu"
+  /images/projects/menulibre/menulibre-application-search.png: "MenuLibre search functionality"
+  /images/projects/menulibre/menulibre-action-editor.png: "MenuLibre action editor"
+  /images/projects/menulibre/menulibre-advanced-editor.png: "MenuLibre advanced editor"
+  /images/projects/menulibre/menulibre-icon-selection-dialog.png: "MenuLibre icon selection dialog"
+  /images/projects/menulibre/menulibre-xfce-integration.png: "MenuLibre Xfce settings menu integration"
 ---
