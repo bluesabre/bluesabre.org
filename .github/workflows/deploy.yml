@@ -28,6 +28,5 @@ jobs:
           npm run install-jekyll
 
       - name: Build
-        uses: jerryjvl/jekyll-build-action@v1
-        env:
-          JEKYLL_ENV: production
+        run: |
+          npm run build
