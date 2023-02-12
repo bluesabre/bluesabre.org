@@ -12,6 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install Jekyll
+        env:
+          BUNDLE_GEMFILE: site/Gemfile 
+        run: |
+          sudo gem install bundler jekyll
+          sudo bundle install
+
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
         env:
