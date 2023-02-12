@@ -14,9 +14,9 @@ jobs:
 
       - name: Install Jekyll
         run: |
-          sudo gem install bundler jekyll
-          sudo npm install
-          sudo npm run install-jekyll
+          gem install bundler jekyll
+          npm install
+          npm run install-jekyll
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
