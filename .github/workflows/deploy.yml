@@ -12,10 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Use ruby snap
-        run: |
-          sudo apt-get remove ruby
-          sudo snap install ruby --classic
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
 
       - name: Install Jekyll
         run: |
