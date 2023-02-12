@@ -1,5 +1,5 @@
 ---
-date: 2021-01-05 05:20:35 +0300
+date: 2016-11-03 08:00:00 -0400
 title: SGT Puzzles Collection
 subtitle: A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
 description: >-

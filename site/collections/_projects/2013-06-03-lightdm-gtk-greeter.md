@@ -1,5 +1,5 @@
 ---
-date: 2021-01-05 05:20:35 +0300
+date: 2013-06-03 08:00:00 -0400
 title: LightDM GTK Greeter
 subtitle: The highly configurable login screen for the Free and Open Source desktop.
 description: >-
