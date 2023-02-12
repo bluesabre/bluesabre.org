@@ -6,4 +6,5 @@ group :jekyll_plugins do
   gem 'jekyll-watch', :git => "https://github.com/CloudCannon/jekyll-watch"
   gem 'jekyll-tagging'
   gem "jekyll-sitemap"
+  gem "jekyll-last-modified-at"
 end
