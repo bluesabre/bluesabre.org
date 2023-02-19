@@ -5,17 +5,17 @@ footer_menu__settings:
     - title: 'Blog'
       url: 'https://blog.bluesabre.org'
     - title: 'Projects'
-      url: '/projects/'
+      url: '/projects'
     - title: 'About'
-      url: '/about/'
+      url: '/about'
     - title: 'Contact'
-      url: '/contact/'
+      url: '/contact'
     - title: 'Donate'
-      url: '/donate/'
+      url: '/donate'
     - title: 'Privacy Policy'
-      url: '/privacy/'
+      url: '/privacy'
     - title: 'Resources'
-      url: '/resources/'
+      url: '/resources'
 
 copyright_text_html: >-
   <p> 2023 &copy; <a href="/">Sean Davis</a>. Get the source on <a href="https://github.com/bluesabre/bluesabre.org">GitHub</a>.</p>
