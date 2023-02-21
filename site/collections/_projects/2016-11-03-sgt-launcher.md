@@ -4,6 +4,8 @@ title: SGT Puzzles Collection
 subtitle: A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
 description: >-
   A dedicated launcher for Simon Tatham’s Portable Puzzle Collection.
+redirect_from:
+  - /projects/sgt-launcher/
 image: /images/projects/sgt-launcher/sgt-launcher-featured.png
 social_media_share_image: /images/projects/sgt-launcher/sgt-launcher-shared.png
 cta_button: Get it on GitHub

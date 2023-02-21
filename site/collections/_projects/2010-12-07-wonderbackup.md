@@ -4,6 +4,8 @@ title: Wonder Backup
 subtitle: A free-to-use, platform-independent backup solution.
 description: >-
   A free-to-use, platform-independent backup solution.
+redirect_from:
+  - /projects/wonderbackup/
 image: /images/projects/wonderbackup/wonderbackup-featured.png
 social_media_share_image: /images/projects/wonderbackup/wonderbackup-shared.png
 cta_button: Get it on GitHub

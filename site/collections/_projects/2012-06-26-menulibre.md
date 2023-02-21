@@ -5,6 +5,8 @@ subtitle: The advanced menu editor for the Free and Open Source desktop.
 description: >-
   The advanced menu editor for the free and open-source desktop. Featured in Xubuntu.
 extended_description: Supports Budgie, GNOME, KDE, LXDE, MATE, Pantheon, Unity, and Xfce.
+redirect_from:
+  - /projects/menulibre/
 image: /images/projects/menulibre/menulibre-featured.png
 social_media_share_image: /images/projects/menulibre/menulibre-shared.png
 cta_button: Get it on GitHub

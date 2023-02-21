@@ -4,6 +4,8 @@ title: LightDM GTK Greeter
 subtitle: The highly configurable login screen for the Free and Open Source desktop.
 description: >-
   The highly configurable login screen for the Free and Open Source desktop.
+redirect_from:
+  - /projects/lightdm-gtk-greeter/
 image: /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-featured.png
 social_media_share_image: /images/projects/lightdm-gtk-greeter/lightdm-gtk-greeter-shared.png
 cta_button: Get it on GitHub
